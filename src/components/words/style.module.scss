@@ -1,0 +1,42 @@
+@import "../../assets/styles/main.scss";
+
+.wrapper {
+  margin: 0 5em;
+}
+.table {
+  border-collapse: collapse;
+  border: 1px solid $borderColor;
+  line-height: 2.5;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid $borderColor;
+  text-align: start;
+  padding-left: 0.5em;
+  width: 23%;
+}
+.count {
+  width: 8%;
+}
+.header {
+  background-color: $orangeBright;
+}
+.content {
+  background-color: $orangeContent;
+}
+.edit {
+  text-align: end;
+}
+button {
+  margin-right: 0.5em;
+  background-color: $orangeWhite;
+  color: $grey;
+  border: none;
+  border-radius: 8%;
+  cursor: pointer;
+}
+button:hover {
+  transition: all 0.3s ease;
+  background-color: $orangeBright;
+}
